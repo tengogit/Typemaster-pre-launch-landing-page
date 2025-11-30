@@ -1,0 +1,134 @@
+@media(width>1440px) {
+    .cont {
+        width: 1440px;
+    }
+
+    header {
+        width: 1110px;
+    }
+
+    .hbox1 {
+        width: 445px;
+        height: 313px;
+    }
+
+    .keytab {
+        display: none;
+    }
+
+    .keydes {
+        display: inline;
+        position: relative;
+        left: 10%;
+    }
+
+    .shadowdes {
+        display: inline;
+        position: relative;
+        top: 33%;
+        left: 59%;
+    }
+
+    section {
+        width: 1110px;
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 125px;
+    }
+
+    .rect {
+        display: inline;
+        position: relative;
+        left: -46%;
+        top: 25%;
+    }
+
+    .keydes1 {
+        display: inline;
+
+
+    }
+
+    .offdes {
+        display: inline;
+    }
+
+    .keyorngtab,
+    .offtab {
+        display: none;
+    }
+
+    article {
+        width: 255px;
+        height: 254px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    article h2 {
+        width: 225px;
+    }
+
+    .imgbox {
+        order: -1;
+    }
+
+    .card {
+        width: 255px;
+        height: 315px;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 32px;
+    }
+
+    .footerp {
+        margin-bottom: 51px;
+    }
+
+    .active {
+        pointer-events: all;
+    }
+
+    button {
+        width: 170px;
+        height: 56px;
+    }
+
+    button:hover {
+        cursor: pointer;
+    }
+
+    .btn1:hover {
+        background-color: #162542;
+    }
+
+    .btn1:hover .pbtn1 {
+        color: white;
+    }
+
+    .btn2:hover {
+        opacity: 0.5;
+    }
+
+    .btn1:focus .pbtn1 {
+        color: #162542;
+        scale: 1.1;
+
+    }
+
+    .btn1:focus {
+        background-color: gainsboro;
+        border: 1px solid black;
+
+    }
+
+    .btn2:focus {
+        outline: 3px solid #F16718;
+        opacity: 1;
+        outline-offset: 3px;
+    }
+}

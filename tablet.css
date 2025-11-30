@@ -1,0 +1,95 @@
+@media(width>768px) {
+
+    .cont {
+        width: 768px;
+    }
+
+    header {
+        width: 735px;
+        height: auto;
+
+
+    }
+
+    .hboxes {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .hbox1 {
+        width: 359px;
+        height: 312px;
+
+    }
+
+    .hbox2 {
+        width: auto;
+        height: auto;
+    }
+
+    .keymob {
+        display: none;
+    }
+
+    .keytab {
+        display: inline;
+        position: relative;
+        left: 7%;
+    }
+
+    section {
+        width: 698px;
+        height: auto;
+        margin-top: 40px;
+    }
+
+    .orange {
+        display: none;
+    }
+
+    .keyorngtab {
+        display: inline;
+    }
+
+    .office {
+        display: none;
+    }
+
+    .offtab {
+        display: inline;
+    }
+
+    article {
+        width: 689px;
+        height: auto;
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-top: 40px;
+    }
+
+    .imgbox {
+        width: auto;
+        height: auto;
+    }
+
+    h4 {
+        width: 225px;
+    }
+
+    article h2 {
+        width: 398px;
+        height: 72px;
+    }
+
+    main {
+        width: auto;
+        height: auto;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .card {
+        width: 336px;
+        height: 291px;
+    }
+}
