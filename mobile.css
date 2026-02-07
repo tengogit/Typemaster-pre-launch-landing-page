@@ -9,7 +9,7 @@
 body {
     overflow-x: hidden !important;
     user-select: none;
-    height: 100vh;
+    min-height: 100dvh;
     font-family: "Barlow", sans-serif;
 
 }
@@ -150,6 +150,7 @@ article {
     width: 343px;
     height: 234px;
     margin-top: 64px;
+    padding: 0 16px;
 }
 
 h4 {
@@ -169,6 +170,7 @@ main {
     margin-top: 64px;
     width: auto;
     margin-bottom: 64px;
+    padding: 0 16px;
 }
 
 .card {
